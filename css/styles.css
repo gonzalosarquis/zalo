@@ -10729,6 +10729,12 @@ header.masthead .masthead-heading {
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
 }
+@media only screen and (max-width: 767px){
+  .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
+  font-size: 2rem;
+}
+}
+
 
 /*-------------------------------------------------------------SERVICIOS------------------------------------------------------------------------*/
 
@@ -10908,9 +10914,6 @@ header.masthead .masthead-heading {
   font-size: 56px; 
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-  @media only screen and (max-width: 767px) {
-    .contact-area .contact-title {
-      font-size: 30px; } }
 
 .contact-area .contact-info p {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10928,10 +10931,23 @@ header.masthead .masthead-heading {
   font-size: 16px; 
   text-decoration: none;
 }
-  @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .contact-area .contact-info a {
-      font-size: 14px; } 
-    }
+
+.personaje{
+  width: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+  .contact-area .contact-title {
+    font-size: 30px; } 
+  .personaje{
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .contact-area .contact-info a {
+    font-size: 14px; } 
+}
 
 /*-------------------------X-----------------------------CONTACTO--------------------------X----------------------------*/
 

@@ -10628,6 +10628,23 @@ header.masthead .masthead-heading {
     margin-bottom: 1rem;
   }
 }
+@media (max-width: 768px){
+  .mailinicio{
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .caja-inicio-celular{
+    padding: 3rem;
+  }
+  header.masthead .masthead-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+  }
+}
+
 #portfolio .portfolio-item {
   max-width: 26rem;
   margin-left: auto;
